@@ -8,6 +8,8 @@ import Logo from '../../assets/logo.png'
 export const Footer = () => {
   return (
     <div className='footer_container'>
+      <div className='blur footer-blur-1'></div>
+      <div className='blur footer-blur-2'></div>
       <hr />
       <div className='footer'>
         <div className='sosial'>

@@ -11,6 +11,20 @@
     color: white;
 }
 
+.plans-blur-1 {
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0;
+}
+
+.plans-blur-2 {
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    right: 0;
+}
+
 .plans-container {
     margin-top: -4rem;
     padding: 0 2rem;

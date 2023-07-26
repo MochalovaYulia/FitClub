@@ -10,6 +10,8 @@ export const Hero = () => {
   return (
     <div className='hero'>
         <div className='left-h'>
+
+            <div className='blur hero-blur'></div>
             <Header />
 
             {/* the-best-ad */}
