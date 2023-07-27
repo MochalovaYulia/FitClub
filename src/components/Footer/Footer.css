@@ -48,3 +48,14 @@
 .footer-logo>img {
     width: 10rem;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        gap: 3rem;
+        height: 13rem;
+    }
+
+    .sosial {
+        gap: 2.8rem;
+    }
+}

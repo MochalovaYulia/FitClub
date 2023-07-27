@@ -1,4 +1,4 @@
-.Testimonials {
+.testimonials {
     display: flex;
     gap: 1rem;
     padding: 0 2rem;
@@ -80,4 +80,76 @@
 .arrows>img {
     width: 1.5rem;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .left-t {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .left-t>:nth-child(2),
+    .left-t>:nth-child(3) {
+    font-size: 2rem;
+}
+
+    .right-t {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-t>div {
+        display: none;
+        position: relative;
+    }
+
+    .right-t>img {
+        right: 0;
+        top: 0;
+        position: relative;
+        align-self: center;
+        width: 13rem;
+        height: 15rem;
+    }
+
+    .right-t>:nth-child(2) {
+        width: 12rem;
+        height: 14rem;
+    } 
+
+    .right-t>:nth-child(1) {
+        width: 13rem;
+        height: 15rem;
+    }
+
+    .right-t>:last-child {
+        top: 15px;
+        bottom: 0;
+        left: 0;
+        display: flex;
+    }
+
+    .left-t>:nth-child(2) {
+        font-size: 1.6rem;
+        display: flex;
+        gap: 0;
+    }
+
+    .left-t>:nth-child(3) {
+        font-size: 1.6rem;
+    }
+
+    .left-t>:nth-child(4) {
+        font-size: 14px;
+        text-align: center;
+    }
+
 }

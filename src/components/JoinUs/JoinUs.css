@@ -49,3 +49,34 @@
     color: white;
     background-color: var(--orange);
 }
+
+@media screen and (max-width: 768px) {
+    .Join {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .left-j {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .left-j>hr {
+        width: 15rem;
+    }
+
+    .email_container {
+        gap: 0;
+        padding: 1rem;
+    }
+    
+    .btn {
+        width: 5rem;
+        height: 3rem;
+        padding: 0;
+    }
+}

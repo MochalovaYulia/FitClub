@@ -100,3 +100,24 @@
 .feature>img {
     width: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .programs-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        font-size: 2rem;
+    }
+
+    .plans {
+        flex-direction: column;
+    }
+
+    .plans>:nth-child(2) {
+        transform: none;
+    }
+
+    .plan {
+        width: 12rem;
+    }
+}

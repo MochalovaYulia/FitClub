@@ -102,3 +102,67 @@
 .image>img {
     width: 2.5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .reasons {
+        flex-direction: column;
+    }
+
+    .left {
+        grid-auto-rows: auto;
+        overflow: hidden;
+    }
+
+    .left>:nth-child(1) {
+        width: 7rem;
+        height: 17rem;
+    }
+
+    .left>:nth-child(2) {
+        width: 12rem;
+        height: 10rem;
+    }
+
+    .left>:nth-child(3) {
+        width: 8rem;
+        height: 6rem;
+    }
+
+    .left>:nth-child(4) {
+        width: 7rem;
+        height: 6rem;
+    }
+
+    .right>span {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .right>div {
+        font-size: 1.8rem;
+        padding-top: 5px;
+    }
+
+    .right-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .details>div>span {
+        font-size: 0.8rem;
+        line-height: 18px;
+    }
+
+    .details>div>img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .partners {
+        padding-bottom: 2rem;
+        margin-top: 1.5rem;
+    }
+}

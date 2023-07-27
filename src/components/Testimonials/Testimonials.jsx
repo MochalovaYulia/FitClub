@@ -11,7 +11,7 @@ export const Testimonials = () => {
     const transition = {type: 'string', duration: 3}
 
     return (
-        <div className='Testimonials'>
+        <div className='testimonials'>
             <div className='left-t'>
                 <span>Testimonials</span>
                 <span className='stroke-text'>what they</span>

@@ -64,3 +64,25 @@
 .join-now>img {
     width: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .programs {
+        padding: 0 30px;
+    }
+
+    .programs_header {
+        flex-direction: column;
+        font-size: 2rem;
+        gap: 0.5rem;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .programs-categories {
+        flex-direction: column;
+    }
+
+    .categories {
+        width: 12rem;
+    }
+}

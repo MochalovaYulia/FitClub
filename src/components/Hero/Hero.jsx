@@ -6,11 +6,12 @@ import hero_image_back from '../../assets/hero_image_back.png'
 import heart from '../../assets/heart.png'
 import calories from '../../assets/calories.png'
 import { motion } from 'framer-motion'
+import NumberCounter from 'number-counter'
 
 export const Hero = () => {
     const transition = { type: 'string', duration: 3 }
     return (
-        <div className='hero'>
+        <div className='hero' id='home'>
             <div className='left-h'>
 
                 <div className='blur hero-blur'></div>
@@ -35,7 +36,7 @@ export const Hero = () => {
                     <div>
                         <span>Ideal body</span>
                     </div>
-                    <div>
+                    <div className='div'>
                         <span className='span'>
                             In here we will help you to shape snd build your ideal body and life up your life to fullest
                         </span>
@@ -45,15 +46,21 @@ export const Hero = () => {
                 {/* figures */}
                 <div className='figures'>
                     <div>
-                        <span className='figures-num'>+140</span>
+                        <span className='figures-num'>
+                            <NumberCounter end={140} start={100} delay='4' preFix="+" />
+                        </span>
                         <span className='figures-text'>exprt couchs</span>
                     </div>
                     <div>
-                        <span className='figures-num'>+978</span>
+                        <span className='figures-num'>
+                        <NumberCounter end={978} start={930} delay='4' preFix="+" />
+                        </span>
                         <span className='figures-text'>members jouned</span>
                     </div>
                     <div>
-                        <span className='figures-num'>+50</span>
+                        <span className='figures-num'>
+                        <NumberCounter end={50} start={10} delay='4' preFix="+" />
+                        </span>
                         <span className='figures-text'>fitness programs</span>
                     </div>
                 </div>
